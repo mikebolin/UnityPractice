@@ -1,0 +1,132 @@
+    ======  ======
+    Time:6/20/2016 5:03:47 PM
+    Title: Initiate log
+    Message: 
+    Time:6/20/2016 5:03:47 PM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:6/20/2016 5:03:47 PM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:6/20/2016 5:03:47 PM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:6/20/2016 5:03:48 PM
+    Title: Requesting Validation
+    Message: ILMValidate True
+    Time:6/20/2016 5:03:48 PM
+    Title: Requesting Validation
+    Message: ILMValidate True NotTrial
+    Time:6/20/2016 5:03:48 PM
+    Title: Requested registry access is not allowed.
+    Message:    at System.ThrowHelper.ThrowSecurityException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+   at Telerik.Licensing.Licenser.CheckRegistryTimeStamp()
+   at Telerik.Licensing.Licenser.TryCheckLicenseExists()
+    Time:6/20/2016 5:03:48 PM
+    Title: LICENSER
+    Message: READ REGS START
+    Time:6/20/2016 5:03:48 PM
+    Title: LIC EXP_KEY
+    Message: NULL
+    Time:6/20/2016 5:03:48 PM
+    Title: LICENSER
+    Message: READ REGS SUCCESS
+    Entering constructor for: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering Initialize() of: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering constructor for: SteveCadwallader.CodeMaid.CodeMaidPackage
+    Entering Initialize() of: SteveCadwallader.CodeMaid.CodeMaidPackage
+    Web method running: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=62&lastChangeId64=62] (GET)connectionData[connectionData]
+    Web method response: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=62&lastChangeId64=62] (GET)connectionData[connectionData] 394 ms
+    devenv.exe Information: 0 : 6/20/2016 9:04:12 PM:  - TokenCache: Deserialized 2 items to token cache.
+    Web method running: [https://app.vssps.visualstudio.com/_apis/Accounts?memberId=0091a090-f47f-4f60-ae31-9b47caeffa83&includeOwner=True&properties=Microsoft.VisualStudio.Services.Account.ServiceUrl.00025394-6065-48ca-87d9-7f5672854ef7] (GET)Accounts[Accounts]
+    devenv.exe Information: 0 : 6/20/2016 9:04:12 PM:  - AuthenticationContext: ADAL .NET with assembly version '2.16.0.0', file version '2.16.20422.1202' and informational version '7329346b1c69910ce7abd66c3f8a918c307827a1' is running...
+    devenv.exe Information: 0 : 6/20/2016 9:04:12 PM: f9c1a44d-8652-482f-befc-4e7c8de8a5db - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/
+	Resource: 499b84ac-1321-427f-aa17-267ca6975798
+	ClientId: 872cd9fa-d31f-45e0-9eab-6e460a02d1f1
+	CacheType: Microsoft.VisualStudio.Services.Client.AccountManagement.AccountManagerAdalCache (2 items)
+	Authentication Target: User
+	
+    devenv.exe Information: 0 : 6/20/2016 9:04:12 PM: f9c1a44d-8652-482f-befc-4e7c8de8a5db - TokenCache: Looking up cache for a token...
+    devenv.exe Information: 0 : 6/20/2016 9:04:12 PM: f9c1a44d-8652-482f-befc-4e7c8de8a5db - TokenCache: An item matching the requested resource was found in the cache
+    devenv.exe Information: 0 : 6/20/2016 9:04:12 PM: f9c1a44d-8652-482f-befc-4e7c8de8a5db - TokenCache: An expired or near expiry token was found in the cache
+    devenv.exe Information: 0 : 6/20/2016 9:04:12 PM: f9c1a44d-8652-482f-befc-4e7c8de8a5db - TokenCache: A matching item (access token or refresh token or both) was found in the cache
+    Web method response: [https://app.vssps.visualstudio.com/_apis/Accounts?memberId=0091a090-f47f-4f60-ae31-9b47caeffa83&includeOwner=True&properties=Microsoft.VisualStudio.Services.Account.ServiceUrl.00025394-6065-48ca-87d9-7f5672854ef7] (GET)Accounts[Accounts] 94 ms
+    devenv.exe Information: 0 : 6/20/2016 9:04:12 PM: f9c1a44d-8652-482f-befc-4e7c8de8a5db - <RefreshAccessTokenAsync>d__11: Refreshing access token...
+    devenv.exe Information: 0 : 6/20/2016 9:04:13 PM: f9c1a44d-8652-482f-befc-4e7c8de8a5db - AcquireTokenSilentHandler: No token matching arguments found in the cache
+    devenv.exe Error: 0 : 6/20/2016 9:04:13 PM: f9c1a44d-8652-482f-befc-4e7c8de8a5db - <RunAsync>d__0: Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException: Failed to acquire token silently. Call method AcquireToken
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenSilentHandler.SendTokenRequestAsync()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenHandlerBase.<RunAsync>d__0.MoveNext()
+	ErrorCode: failed_to_acquire_token_silently
+    devenv.exe Information: 0 : 6/20/2016 9:04:14 PM: c050b968-a782-41d2-8a91-12669a493f6e - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/
+	Resource: 499b84ac-1321-427f-aa17-267ca6975798
+	ClientId: 872cd9fa-d31f-45e0-9eab-6e460a02d1f1
+	CacheType: Microsoft.VisualStudio.Services.Client.AccountManagement.AccountManagerAdalCache (2 items)
+	Authentication Target: User
+	
+    devenv.exe Information: 0 : 6/20/2016 9:04:14 PM: c050b968-a782-41d2-8a91-12669a493f6e - TokenCache: Looking up cache for a token...
+    devenv.exe Information: 0 : 6/20/2016 9:04:14 PM: c050b968-a782-41d2-8a91-12669a493f6e - TokenCache: An item matching the requested resource was found in the cache
+    devenv.exe Information: 0 : 6/20/2016 9:04:14 PM: c050b968-a782-41d2-8a91-12669a493f6e - TokenCache: An expired or near expiry token was found in the cache
+    devenv.exe Information: 0 : 6/20/2016 9:04:14 PM: c050b968-a782-41d2-8a91-12669a493f6e - TokenCache: A matching item (access token or refresh token or both) was found in the cache
+    devenv.exe Information: 0 : 6/20/2016 9:04:14 PM: c050b968-a782-41d2-8a91-12669a493f6e - <RefreshAccessTokenAsync>d__11: Refreshing access token...
+    devenv.exe Information: 0 : 6/20/2016 9:04:14 PM: c050b968-a782-41d2-8a91-12669a493f6e - AcquireTokenSilentHandler: No token matching arguments found in the cache
+    devenv.exe Error: 0 : 6/20/2016 9:04:14 PM: c050b968-a782-41d2-8a91-12669a493f6e - <RunAsync>d__0: Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException: Failed to acquire token silently. Call method AcquireToken
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenSilentHandler.SendTokenRequestAsync()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenHandlerBase.<RunAsync>d__0.MoveNext()
+	ErrorCode: failed_to_acquire_token_silently
+    devenv.exe Information: 0 : QuietPeriodTimer was disabled. disabledLevel=1
+    devenv.exe Information: 0 : QuietPeriodTimer was enabled.
+    devenv.exe Information: 0 : QuietPeriodTimer was disabled. disabledLevel=1
+    devenv.exe Information: 0 : QuietPeriodTimer was enabled.
+    devenv.exe Information: 0 : 6/20/2016 9:04:15 PM: 59988214-5406-42d9-86d8-1d632ba9c7ed - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/
+	Resource: 499b84ac-1321-427f-aa17-267ca6975798
+	ClientId: 872cd9fa-d31f-45e0-9eab-6e460a02d1f1
+	CacheType: Microsoft.VisualStudio.Services.Client.AccountManagement.AccountManagerAdalCache (2 items)
+	Authentication Target: User
+	
+    devenv.exe Information: 0 : 6/20/2016 9:04:15 PM: 59988214-5406-42d9-86d8-1d632ba9c7ed - TokenCache: Looking up cache for a token...
+    devenv.exe Information: 0 : 6/20/2016 9:04:15 PM: 59988214-5406-42d9-86d8-1d632ba9c7ed - TokenCache: An item matching the requested resource was found in the cache
+    devenv.exe Information: 0 : 6/20/2016 9:04:15 PM: 59988214-5406-42d9-86d8-1d632ba9c7ed - TokenCache: An expired or near expiry token was found in the cache
+    devenv.exe Information: 0 : 6/20/2016 9:04:15 PM: 59988214-5406-42d9-86d8-1d632ba9c7ed - TokenCache: A matching item (access token or refresh token or both) was found in the cache
+    devenv.exe Information: 0 : 6/20/2016 9:04:15 PM: 59988214-5406-42d9-86d8-1d632ba9c7ed - <RefreshAccessTokenAsync>d__11: Refreshing access token...
+    devenv.exe Information: 0 : 6/20/2016 9:04:15 PM: 59988214-5406-42d9-86d8-1d632ba9c7ed - AcquireTokenSilentHandler: No token matching arguments found in the cache
+    devenv.exe Error: 0 : 6/20/2016 9:04:15 PM: 59988214-5406-42d9-86d8-1d632ba9c7ed - <RunAsync>d__0: Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException: Failed to acquire token silently. Call method AcquireToken
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenSilentHandler.SendTokenRequestAsync()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenHandlerBase.<RunAsync>d__0.MoveNext()
+	ErrorCode: failed_to_acquire_token_silently
+    Web method running: [https://app.vssps.visualstudio.com/_apis/Token/SessionTokens?isPublic=False] (POST)SessionTokens[Token]
+    Web method response: [https://app.vssps.visualstudio.com/_apis/Token/SessionTokens?isPublic=False] (POST)SessionTokens[Token] 356 ms
+    Web method running: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=62&lastChangeId64=62] (GET)connectionData[connectionData]
+    Web method response: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=62&lastChangeId64=62] (GET)connectionData[connectionData] 325 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=3990&lastChangeId64=3990] (GET)connectionData[connectionData]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=3990&lastChangeId64=3990] (GET)connectionData[connectionData] 410 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me?details=true&withattributes=false&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll] (GET)me[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me?details=true&withattributes=false&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll] (GET)me[Profile] 398 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Locations?profilePageType=Update] (GET)Locations[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Locations?profilePageType=Update] (GET)Locations[Profile] 61 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval] (GET)ProfileRefreshInterval[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval] (GET)ProfileRefreshInterval[Profile] 82 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Attributes?partition=VisualStudio.14_PreferredProfile&modifiedafterrevision=527484] (GET)Attributes[Profile]
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Small] (GET)Avatar[Profile]
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Large] (GET)Avatar[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Attributes?partition=VisualStudio.14_PreferredProfile&modifiedafterrevision=527484] (GET)Attributes[Profile] 131 ms
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Small] (GET)Avatar[Profile] 236 ms
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Large] (GET)Avatar[Profile] 300 ms
+    devenv.exe Information: 0 : QuietPeriodTimer was disabled. disabledLevel=1
+    devenv.exe Information: 0 : QuietPeriodTimer was enabled.
+    devenv.exe Information: 0 : QuietPeriodTimer was disabled. disabledLevel=1
+    devenv.exe Information: 0 : QuietPeriodTimer was enabled.
+    devenv.exe Information: 0 : QuietPeriodTimer was disabled. disabledLevel=1
+    devenv.exe Information: 0 : QuietPeriodTimer was enabled.
+    devenv.exe Information: 0 : QuietPeriodTimer was disabled. disabledLevel=1
+    devenv.exe Information: 0 : QuietPeriodTimer was enabled.
+    TestWindow package loaded
+    devenv.exe Information: 0 : QuietPeriodTimer was disabled. disabledLevel=1
+    devenv.exe Information: 0 : QuietPeriodTimer was enabled.
+    Informational: ------ Load Playlist started ------
+    Informational: ========== Load Playlist finished (0:00:00.0020008) ==========
+    Informational: ------ Discover test started ------
+    Informational: ========== Discover test finished: 0 found (0:00:00.7159858) ==========
